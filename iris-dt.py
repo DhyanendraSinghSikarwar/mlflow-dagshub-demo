@@ -1,3 +1,8 @@
+# logging an MLflow model with DagsHub integration
+# This script demonstrates how to log a Decision Tree model using MLflow with DagsHub integration.
+# It includes hyperparameter tuning, model evaluation, and logging of artifacts and datasets.
+# It also logs the confusion matrix and model artifacts to DagsHub.
+# The script uses the Iris dataset for classification.
 import mlflow
 import mlflow.sklearn
 from sklearn.datasets import load_iris
